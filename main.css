@@ -110,11 +110,9 @@ body {
 @media only screen and (min-width: 775px) {
   body {
     background-color: hsl(201deg, 41%, 92%);
-    display: grid;
-    justify-content: center;
-    align-content: center;
     margin: auto;
-    min-height: 100vh;
+    padding: 2rem;
+    height: 100vh;
   }
   .whole-grid {
     display: grid;
