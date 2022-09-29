@@ -5,7 +5,6 @@ body {
   font-family: Karla;
   height: 100vh;
   margin: auto;
-  
 }
 
 .whole-grid {
@@ -94,12 +93,10 @@ body {
   box-shadow: 0rem 0.5rem 0.5rem hsl(179, 44%, 36%);
 }
 
-
 :hover.middle-grid-cta {
-
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(71, 73%, 54%);
-    cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(71, 73%, 54%);
+  cursor: pointer;
 }
 
 .bottom-grid {
@@ -124,6 +121,9 @@ body {
 @media only screen and (min-width: 775px) {
   body {
     background-color: hsl(201, 41%, 92%);
+    display: grid;
+    justify-content: center;
+    align-content: center;
     margin: auto;
     padding: 1rem;
     height: 100vh;
