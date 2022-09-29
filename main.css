@@ -110,14 +110,14 @@ body {
 @media only screen and (min-width: 775px) {
   body {
     background-color: hsl(201deg, 41%, 92%);
+    display: gird;
+    justify-content: center;
+    width: 100%;
     margin: auto;
-    padding: 2rem;
-    height: 100vh;
   }
   .whole-grid {
     display: grid;
     grid-template-columns: 40 auto auto;
-    height: 100vh;
   }
   .top-grid {
     grid-column-start: 1;
