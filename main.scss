@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  margin: 4px;
+  justify-content: center;
+  overflow: hidden;
+  font-family: Kumbh Sans;
+}
+
+.main-card {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 320px;
+  height: 370px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  border-radius: 0.7em 0.7em 0.7em 0.7em;
+}
+
+.background-top {
+  width: 320px;
+  height: 130px;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 0.7em 0.7em 0 0;
+  background-size: contain;
+  background-size: 100%;
+}
+
+.profile-info {
+  img {
+    background-color: white;
+    border-radius: 100%;
+    border-style: solid;
+    color: white;
+    border-width: 0.3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+    width: 35%;
+    padding: 0.1em;
+  }
+
+  h4 {
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 2sem;
+  }
+
+  span {
+    color: hsl(0, 0%, 59%);
+    margin-left: 10px;
+    font-weight: 400;
+  }
+
+  p {
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    margin-top: -10px;
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: bold;
+    margin-bottom: 25px;
+  }
+}
+
+hr {
+  display: block;
+  border: 0;
+  border-top: 0.1em;
+  border-style: solid;
+  color: lightgrey;
+}
+
+.profile-numbers {
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  margin-top: -15px;
+  margin-bottom: 20px;
+
+  li {
+    width: 40px;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+  }
+
+  li > span {
+    width: 60px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.7em;
+    position: absolute;
+    top: 4em;
+    left: 1em;
+    color: hsl(0, 0%, 59%);
+  }
+}
+
+@media only screen and (max-width: 460px) {
+ 
+ 
+  .main-card {
+    width: 290px;
+    height: 340px;
+  }
+
+  .background-top {
+
+    width: 290px;
+  }
+
+  .profile-info {
+
+    img {
+
+    width: 30%;
+  }
+}
+
+li {
+
+  font-size: 0.8em;
+  text-align: center;
+  padding: 5px;
+  left: -15px;
+}
+
+li > span {
+
+  font-size: 0.3em;
+  
+}
+}
+
