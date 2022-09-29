@@ -114,7 +114,7 @@ body {
     justify-content: center;
     align-content: center;
     margin: auto;
-    height: 100vh;
+    min-height: 100vh;
   }
   .whole-grid {
     display: grid;
