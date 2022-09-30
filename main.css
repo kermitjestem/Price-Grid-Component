@@ -118,6 +118,7 @@ body {
   .whole-grid {
     display: grid;
     grid-template-columns: 40 auto auto;
+    padding: 1rem;
   }
   .top-grid {
     grid-column-start: 1;
