@@ -112,8 +112,8 @@ body {
     background-color: hsl(201deg, 41%, 92%);
     display: grid;
     justify-content: center;
-    width: 100%;
     margin: auto;
+    padding: 1rem;
   }
   .whole-grid {
     display: grid;
